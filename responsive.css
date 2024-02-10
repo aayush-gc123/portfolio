@@ -1,133 +1,57 @@
-@media(max-width:350px){
-    /* body{
-       background-color: red;
-    } */
-    .container{
-        height: 4500px;
-    }
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');@media only screen and (max-width: 768px) {
+	hr {
+		margin: 0 auto;
+	}
 }
 
-@media screen and (max-width:892px){
-    .container{
-        margin-left: 20px;
-    }
-}
-@media (max-width:892px){
-    .container{
+@media only screen and (max-width: 768px) {
+	.profile_container {
+		flex-direction: column;
 
-        display: flex;
-        flex-direction: column;
-    }
-    .box1{
-height: 900px;
-width: 100vw;
-    }
-    .box2{
-        height: 900px;
-        width: 100vw;
-            }
-            .box3{
-                height: 600px;
-                width: 100vw;
-                    }
-           
-                    .box4{
-                        height: 700px;
-                        width: 100vw;
-                            }
-    
-                            .box5{
-                                height: 700px;
-                                width: 100vw;
-                                    }
-                                    .box6{
-                                        height: 700px;
-                                        width: 100vw;
-                               
-                                    }
-                               
-                                    .box7{
-                                        height: 700px;
-                                        width: 100vw;
-                                            }
-                                            .box8{
-                                                height: 900px;
-                                                width: 100vw;
-                                                    }
-                                                    .box9{
-                                                        height: 900px;
-                                                        width: 100vw;
-                                                         
-                                                    
-                                            }
-                                            .box10{
-                                                height: 900px;
-                                                width: 100vw;
-                                         
-                                            }
-                                         
-                                            .box11{
-                                                height: 900px;
-                                                width: 100vw;
-                                                    }
-                                                
-                                                    .box12{
-                                                        height: 900px;
-                                                        width: 100vw;
-                                                            }
-                                                        
-                                                                                                    
+	}
+	.Img{
+		min-height: 250px;
+		min-width:250px;
+
+	
+	}
 }
 
-@media screen and (max-width:892px){
-    .container{
-        height: 4000px;
-        display: flex;
-        justify-content: center;
-    }
- 
-    .div a{
-      line-height: 50px;
-    }
-    .reserve p{
-        text-align: center;
-    }
+@media only screen and (max-width: 768px) {
+	.profile {
+		margin-bottom: 0;
+	}
+	.section3{
+		flex-direction: column;
+	}
 }
-@media (max-width:240px){
-    .container{
-        height: 4060px;
-    }
+@media(max-width:301px){
+	p{
+		padding:0 0.5rem;
+	}
+	.Img{
+		position: relative;
+		right: 2rem;
+		background-color: red;
+		min-height: 200px;
+		min-width: 200px;
+	}
 }
-@media (min-width:891px){
-    /* body{
-        background-color: red;
-    } */
-    .box5{
-        margin-top: -150px;
-    }
-    .box6{
-        margin-top: -150px;
-    }
-    .box7{
-        margin-top: -100px;
-    }
-    .box8{
-        margin-top: -100px;
-    }
-    .box9{
-        margin-top: -100px;
-    }
-    .box10{
-        margin-top: -100px;
-    }
-    .box11{
-        margin-top: -150px;
-    }
-    .box12{
-        margin-top: -150px;
-    }
-    .div{
-        line-height: 50px;
-    }
+
+@media only screen and (max-width: 768px) {
+	.container {
+		width: 100%;
+		grid-template-columns: 1fr;
+		padding: 3rem;
+		gap: 7rem;
+	}
+}
+
+@media(max-width:500px){
+.name{
+	font-size: 2rem;
+}
+.prename{
+	font-size: 5rem;
+}
 }

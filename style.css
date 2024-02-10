@@ -1,350 +1,286 @@
-*{
-    margin:0;
-    padding:0;
+
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
 body{
-    background-color: black;
-    display: flex;
-    justify-content: center;
+	background-color: aqua;
 }
-.container div{
-    border: none;
+.name{
+	font-size: 5rem;
+
 }
-.container{
-    color: white;
-    overflow-x: hidden;
-    height: 340vh;
-    display: grid;
-    grid-template-columns: 500px 500px;
-    grid-template-rows: 500px 500px;
-    justify-content: space-evenly;
-    width: 100vw;
-    /* border: 1px solid black; */
+.prename{
+	font-size: 8rem;
 }
-.bo
-.box1{
-    margin-top: 40px;
-    border: 1px solid black;
-    width: 500px;
+.Img{
+    min-width: 200px;
+	max-width: 200px;
+	background-image: url(aayush.jpg);
+	background-size: cover;
+	border-radius: 50%;
+	height: 200px;
+	border: 1px solid white;
 }
-.box2{
-    margin-top: 40px;
-    border: 1px solid black;
- 
+
+.present{
+	color: aqua;
+	margin-top: 3rem;
 }
-.box3{
-    
-    height: 300px;
-    border: 1px solid black;
-    margin-top: 30px;
+.downloadBtn{
+	display: none;
+	font-size: 30rem;
 }
-.box4{
-    height: 300px;
-    margin-top: 30px;
-    border: 1px solid black;
- 
+
+:root {
+	--primary-color:GOLD;
+	--text-color: #727171;
 }
-.box5{
-    row-gap: 300px;
-    height: 300px;
-    margin-top: 30px;
-    border: 1px solid black;
- 
+html {
+	font-size: 10px;
 }
-.box6{
-    height: 300px;
-    margin-top: 20px;
-    border: 1px solid black;
- 
+body {
+	font-family: Inter, sans-serif;
+	background-color: black;
+	color: white;
 }
-.box7{
-    height: 300px;
-    margin-top: 30px;
-    border: 1px solid black;
- 
+img {
+	width: 100%;
 }
-.box8{
-    height: 300px;
-    margin-top: 30px;
-    border: 1px solid black;
- 
+a {
+	text-decoration: none;
+	color: white;
+
 }
-.box9{
-    height: 300px;
-    margin-top: 40px;
-    border: 1px solid black;
- 
+.des {
+	margin-top: 1rem;
+	font-size: 1.5rem;
+	font-weight: 400;
+	color: var(--text-color);
 }
-.box10{
-    height: 300px;
-    margin-top: 40px;
-    border: 1px solid black;
- 
+.title {
+	color: var(--primary-color);
+	font-weight: 700;
+	font-size: 2rem;
+	text-transform: uppercase;
 }
-.box11{
-    height: 300px;
-    margin-top: 40px;
-    border: 1px solid black;
- 
+.present p{
+
+color:var(--text-color);
 }
-.box12{
-    height: 300px;
-    margin-top: 40px;
-    border: 1px solid black;
- 
+.org{
+   margin-top: 90px;
+}
+/* layouts */
+
+.container {
+	max-width: 1000px;
+	width: 90%;
+	margin: 0 auto;
+	display: grid;
+	padding: 5rem;
+	background: #070707;
+	grid-template-columns: 1fr 1fr;
+	gap: 4rem;
+}
+li{
+	color:  var(--text-color);
+   margin:0 1.5rem
+}
+
+.profile {
+	grid-column: 1 / -1;
+	margin-bottom: 2rem;
+}
+.section1,
+.section2 {
+	display: flex;
+	flex-direction: column;
+	gap: 5rem;
+	
+}
+.section2 p{
+	margin-top: 2.5rem;
+	font-size: 1.5rem;
+}
+.section3 {
+	max-width: 700px;
+	width: 100%;
+	margin: 0 auto;
+	grid-column: 1/-1;
+	display: flex;
+	flex-direction: row;
+	gap: 5rem;
+}
+.section3 > div {
+	flex: 1;
 }
 
 
-.img{
-    height: 200px;
-    width:200px;
-    border: 1px solid black;
-    border-radius: 50%;
-    background-image: url(logo.1.jpg);
-    background-size: cover;
-    
-}
-.section1{
-    display: flex;
-    justify-content: center;
-}
-.para{
-  margin-top: 30px;
-  text-align: center;
-}
-.para-1{
-    margin-top: 10px;
-}
-#s-p{
-    margin-top: 25px;
-}
-.s-2-3{
-    margin-top: 30px;
-    line-height: 40px;
-}
-   
-#a-down{
-    margin-top: 40px;
-     border-radius: 30px;
-    height: 60px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-    width:200px;
-    border: 1px solid black;
-}
-     
-#h-1{
-    margin-top: 200px;
-}
-.section3 p{
-    margin-top: 20px;
-}
-.section4 P{
-    margin-top: 30px;
-}
-.section5 P{
-    margin-top: 30px;
-}
-.section6 p{
-    margin-top: 30px;
-}
-.section7 p{
-    margin-top: 30px;
-}
-.section8 p{
-    margin-top: 30px;
-}
-.section9 a{
-    margin-top: 30px;
-}
-.section10 p{
-    margin-top: 30px;
-}
-.section11 p{
-    margin-top: 40px;
-}
-.box12 a{
-   text-decoration: none;
-    margin-top: 40px;
+/* profile */
+.profile_container {
+	display: flex;
+	gap: 2rem;
 }
 
-/* .para{
-    overflow-y: scroll;
-} */
-/* .section1{
-    overflow-y: scroll;
-} */
-/* *{
-    overflow-y: scroll;
-} */
-/* .container{
-    height: 4000px;
-} */
-
-@media screen and (max-width:892px){
-    .container{
-        height: 4000px;
-        display: flex;
-        justify-content: center;
-    }
- 
-    .div a{
-      line-height: 50px;
-    }
-    .reserve p{
-        text-align: center;
-    }
+img{
+	height: 200px;
+	width: 200px;
 }
-@media (max-width:240px){
-    .container{
-        height: 4060px;
-    }
-}
-@media (min-width:891px){
-    /* body{
-        background-color: red;
-    } */
-    .box5{
-        margin-top: -150px;
-    }
-    .box6{
-        margin-top: -150px;
-    }
-    .box7{
-        margin-top: -100px;
-    }
-    .box8{
-        margin-top: -100px;
-    }
-    .box9{
-        margin-top: -100px;
-    }
-    .box10{
-        margin-top: -100px;
-    }
-    .box11{
-        margin-top: -150px;
-    }
-    .box12{
-        margin-top: -150px;
-    }
-    .div{
-        line-height: 50px;
-    }
-}
-
-.para h1{
-    color: aqua;
-    font-weight: 900;
-}
-.para-1 p{
-    color: darkgray;
-}
-.section2 h1{
-    color:orangered;
-}
-#s-p{
-    color: darkgray;
-}
-.s-2-3 pre{
-    color: #6a5acd;
-    font-size: 18px;
-    font-style: italic;
-}
-#a-down{
-    background-color: gold;
-    color:#00000091;
-}
-.section3 h1{
-    color: gold;
-}
-.section3 p{
-    color:darkgray
-}
-
-.section4 h1{
-    color: gold;
-}
-.section3 p{
-    color:darkgray
-}
-
-.dd-s3{
-    color: white;
-}
-.section4 p{
-    color:darkgray
-}
-
-.section5 h1{
-    color: gold;
-}
-.section5 p{
-    color: darkgrey;
-}
-.section6 h1{
-    color: gold;
-
-}
-.section6 p{
-    color: darkgrey;
-
-}
-.section7 p{
-    color: darkgrey;
-
-}
-.section7 h1{
-    color:gold;
+ .img{
+	border-radius: 50%;
 
 }
 
-.section8 p{
-    color: darkgrey;
+.name{
+	font-size: 3.5rem;
+	color:white;
 
+	text-transform: uppercase;
 }
-.section8 h1{
-    color:gold;
-
+li{
+	margin-top: 2.5rem;
+	font-size: 1.5rem;
 }
-
-.section9 h1{
-    color:gold;
-
+.devinfo {
+	font-size: 1.5rem;
+	font-weight: 900;
+	margin-top: 1rem;
+	text-transform: uppercase;
 }
-
-.section9 a{
-    color: darkgrey;
-
+.planing p{
+	margin-top: 2rem;
+	font-size: 1.5rem;
 }
-
-.section10 h1{
-    color:gold;
-
+.downloadBtn {
+	display: block;
+	text-decoration: underline;
+	font-size: 1.6rem;
+	margin-top: 1rem;
 }
-
-.section10 p{
-    color: darkgrey;
-
+        
+.g-skills p{
+	margin-top: 3rem;
+	color: var(--text-color);
 }
-
-.section11 h1{
-    color:gold;
-
+.edu p{
+margin-top: 2.5rem;
+font-size: 1.5rem;
 }
-
-.section11 p{
-    color: darkgrey;
-
-}
-
-.box12 h1{
-    color:gold;
-
+.downloadBtn:hover {
+	color: var(--primary-color);
 }
 
-.box12 p{
-    color: darkgrey;
 
+/* Expertise */
+.skills_list {
+	margin-top: 1rem;
+	margin-left: 2rem;
+	line-height: 2;
+}
+.prename{
+	font-size: 8rem;
+	position: relative;
+    right: 0.5rem;
+}
+
+/* Ref  */
+.ref_item {
+	margin-top: 2rem;
+}
+.ref_name {
+	font-size: 1.6rem;
+	font-weight: 700;
+}
+
+/* eduction */
+.edu_item {
+	margin-top: 2rem;
+}
+
+/* certification */
+.certification_item {
+	margin-top: 2rem;
+}
+/* exp */
+.exp_item {
+	margin-top: 2rem;
+}
+
+
+.awards_item {
+	margin-top: 2rem;
+}
+.interest_items {
+	margin-top: 2rem;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 2rem;
+}
+.interest_item {
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+	color: var(--text-color);
+}
+.interest_item svg {
+	width: 2rem;
+}
+
+/* socials */
+.social_items {
+	margin-top: 2rem;
+}
+.social_item {
+	margin-top: 1.5rem;
+	font-size: 1.5rem;
+	display: flex;
+	gap: 0.5rem;
+	align-items: center;
+	justify-content: flex-start;
+	color: var(--text-color);
+}
+.social_item:hover {
+	color: var(--primary-color);
+}
+.social_item svg {
+	width: 2rem;
+}
+
+hr {
+	grid-column: 1/-1;
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 5rem;
+	margin-bottom: 1rem;
+	border: none;
+	border-top: 2px solid rgba(128, 128, 128, 0.229);
+}
+
+
+.Edu p{
+	color:white;
+	margin-top: 2.5rem;
+	font-size: 1.5rem;
+}
+.social a{
+	font-size: 1.5rem;
+	color: var(--text-color);
+}
+.social a:hover{
+	color: gold;
+	text-decoration: underline;
+}
+.mini-ss{
+    color: var(--text-color);
+    font-size: 1.5rem;
+}
+.mini-big{
+    color:var(--text-color);
 }
