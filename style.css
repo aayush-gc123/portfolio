@@ -18,7 +18,7 @@ body{
 .Img{
     min-width: 200px;
 	max-width: 200px;
-	background-image: url(aayush.jpg);
+	background-image: url("logo.1.jpg");
 	background-size: cover;
 	border-radius: 50%;
 	height: 200px;
